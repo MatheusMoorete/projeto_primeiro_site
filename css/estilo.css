@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#container{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+.center{
+  flex-wrap: wrap; 
+  display:flex ;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0% 2%;
+  position: relative;
+  text-align: right;
+  
+  
+} 
+  
+
+header{
+    margin: 30px;
+    padding: 20px 0px;
+    background-color: #1b8e99;
+    height: 45px ;
+    width: 980px;
+    
+}
+
+.logo{
+    width: 146px;
+    height: 196px;
+    margin-top: -43px;
+    margin-left: -8px;
+}
+
+.menu-suprior{
+   width: 980px;
+   height: 45px;
+   margin-right: -7px;
+   margin-top: -160px;
+   
+  
+   
+}
+
+.menu-suprior a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+}
+
+.ativo{
+    background-color:  #92c9ce;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ativo2{
+    background-color:  white;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.menu-inferior a.ativo2{
+    color: #660000;
+    
+}
+
+.banner{
+    margin-top: -30px;
+    margin-left: 30px;
+    height: 134px;
+    
+}
+
+.menu-inferior{
+    width: 980px;
+    height: 45px;
+    background-color: #660000;
+    margin-right: 10px;
+    margin-top: 218px;
+    margin-left: 30px;
+    padding-top: 13px;
+    padding-left: 22px;
+}
+
+.menu-inferior a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+}
+
+.meiota{
+    width: 980px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 77px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 22px
+}
+
+.meiota h1{
+    color: #660000;
+    font-size: 18px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 502px;
+}
+
+.meiota img {
+    position: absolute;
+    top: 461px;
+    right: -32px;
+    width: 125px;
+    height: 77px;
+  }
+
+hr{
+    border: 2px solid #660000;
+    width: 860px;
+    position: absolute;
+    top: 526px;
+    left: 49px;
+}
+
+.primeiro-box {
+    display: flex;
+    justify-content: space-around;
+    height: 376px;
+    width: 300px;
+   
+    border: 1px solid #1b8e99;
+    margin-left: 49px;
+}
+
+.titulo-primeiro-box {
+    font-family: Tahoma;
+    font-size: 15px;
+    text-align: center;
+    color: #1b8e99;
+    background-color: rgb(27 142 153 / 26%);
+    width: 293px;
+    height: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 568px;
+}
+
+.imagem-primeiro-box {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.descrição-primeiro-box {
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    color: #1b8e99;
+    position: absolute;
+    margin-top: 5px;
+   
+    
+}
+
+.preço-primeiro-box {
+    background-color: #1b8e99;
+    position: relative;
+    bottom:-279px;
+    height: 96px;
+    width: 300px;
+    
+}
+
+.texto-preço-primeiro-box {
+    font-family: Tahoma;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+.texto-do-texto-do-preço{
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 70px; 
+    left: 13px;
+}
+.botão{
+    background: white;
+    height: 56px;
+    width: 65px;
+    border-radius: 5px;
+    position: absolute;
+    left: 271px;
+    top: 875px;
+    text-align: center;
+   
+}
+.segundo-box {
+    display: flex;
+    justify-content: space-around;
+    height: 376px;
+    width: 300px;
+   
+    border: 1px solid #660000;
+    margin-left: 24px;
+}
+
+.titulo-segundo-box {
+    font-family: Tahoma;
+    font-size: 15px;
+    text-align: center;
+    color: #660000;
+    background-color: #6600006e;
+    width: 293px;
+    height: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 568px;
+}
+
+.imagem-segundo-box {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.descrição-segundo-box {
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    color: #660000;
+    position: absolute;
+    margin-top: 5px;
+   
+}
+
+.preço-segundo-box {
+    font-family: Tahoma;
+    background-color: #660000;
+    position: relative;
+    bottom: -279px;
+    height: 96px;
+    width: 300px;
+}
+
+.texto-preço-segundo-box {
+    font-family: Tahoma;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+
+}
+.segundo-botão{
+    background: white;
+    height: 55px;
+    width: 63px;
+    border-radius: 5px;
+    position: absolute;
+    left: 326px;
+    top: px;
+    text-align: center;
+}
+
+.terceiro-box{
+    display: flex;
+    justify-content: space-around;
+    height: 376px;
+    width: 300px;
+   
+    border: 1px solid #1b8e99;
+    margin-left: 24px;
+}
+.terceiro-botão{
+    background: white;
+    height: 55px;
+    width: 63px;
+    border-radius: 5px;
+    position: absolute;
+    left: 650px;;
+    text-align: center;
+}
+
+#linha2{
+    background-color: #444444;
+    border: #444444;
+    position: absolute;
+    top: 952px;
+    left: 49px;
+    height: 18px;
+    width: 949px;
+}
+
+h2{
+    color: #1b8e99;
+    font-size: 18px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1035px;
+    left: 54px; 
+}
+
+#linha3{
+    background-color: #1b8e99;
+    border: #1b8e99;
+    position: absolute;
+    top: 1055px;
+    left: 49px;
+    height: 2px;
+}
+#DroneB{
+    position: absolute;
+    top: 1004px;
+    right: -35px;
+    width: 125px;
+    height: 77px;
+}
+.box-serviço1 {
+    display: flex;
+    justify-content: space-around;
+    height: 322px;
+    width: 300px;
+    border: 2px solid #660000;
+    margin-left: 49px;
+    margin-top: 175px;
+}
+.box-serviço1-titulo {
+    font-family: Tahoma;
+    font-size: 17px;
+    color: #660000;
+    margin-top: 144px;
+    margin-left: -194px;
+}
+.box-serviço1-imagem {
+    position: absolute;
+    left: 50.5px;
+}
+.box-serviço1-descrição {
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    color: #660000;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 5px;
+}
+.box-serviço2 {
+    display: flex;
+    justify-content: space-around;
+    height: 322px;
+    width: 300px;
+    border: 2px solid #1b8e99;
+    margin-left: 49px;
+    margin-top: 175px;
+}
+.box-serviço2-titulo {
+    font-family: Tahoma;
+    font-size: 17px;
+    color: #660000;
+    margin-top: 144px;
+    margin-left: -142px;
+}
+.box-serviço2-imagem {
+    position: absolute;
+    left: 377px;
+}
+.box-serviço2-descrição {
+
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    color: #660000;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 5px;
+}
+.box-serviço3 {
+    display: flex;
+    justify-content: space-around;
+    height: 322px;
+    width: 300px;
+    border: 2px solid #660000;
+    margin-left: 49px;
+    margin-top: 175px;
+}
+.box-serviço3-titulo {
+    font-family: Tahoma;
+    font-size: 17px;
+    color: #660000;
+    margin-top: 144px;
+    margin-left: -100px;
+}
+.box-serviço3-imagem {
+    position: absolute;
+    left: 704px;
+
+}
+.box-serviço3-descrição {
+    
+font-family: Tahoma;
+    font-size: 13px;
+    text-align: left;
+    color: #660000;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 5px;
+}
+
+#linhaA{
+    background-color: #660000;
+    height: 10px;
+    width: 277px;
+    position: absolute;
+    top: 1427px;
+}
+
+#linhaB{
+    background-color: #1b8e99;
+    border: #1b8e99;
+    height: 10px;
+    width: 275px;
+    position: absolute;
+    top: 1427px;
+    left: 377px;
+}
+
+#linhaC{
+    background-color: #660000;
+    height: 10px;
+    width: 274px;
+    position: absolute;
+    top: 1427px;
+    left: 704px;
+}
+
+.texto-rodapé{
+    position: absolute;
+    top: 1570px;
+    left: 22px;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.img-logo-site{
+    position: absolute;
+    top: 1607px;
+    left: 50px;
+}
+.texto-professor{
+    position: absolute;
+    top: 1662px;
+    left: 22px;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    font-family: Tahoma;
+}
+.prof-bartola{
+    position: absolute;
+    top: 1490px;
+    right: -15px;
+}
+#drone-inferiorA{
+    position: absolute;
+    top: 1527px;
+    left: 25px;
+}
+#drone-inferiorB{
+    position: absolute;
+    top: 1527px;
+    left: 452px;
+}
+
+#drone-inferiorC{
+    position: absolute;
+    top: 1527px;
+    left: 705px;
+}
+
+
+
